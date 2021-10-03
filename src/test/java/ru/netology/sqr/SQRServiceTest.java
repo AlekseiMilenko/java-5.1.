@@ -10,8 +10,8 @@ class SQRServiceTest {
     public void shouldCalculateNumberInSquare() {
         SQRService sqrService = new SQRService();
         int expected = 3;
-        int actual = sqrService.numberInSquareCalculator(200,300);
-        assertEquals(expected,actual);
+        int actual = sqrService.numberInSquareCalculator(200, 300);
+        assertEquals(expected, actual);
 
     }
 }
